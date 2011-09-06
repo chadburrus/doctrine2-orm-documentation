@@ -404,7 +404,7 @@ Up to now we have only implemented our Entities as Data-Structures
 without actually telling Doctrine how to persist them in the
 database. If perfect in-memory databases would exist, we could now
 finish the application using these entities by implementing code to
-fulfil all the requirements. However the world isn't perfect and we
+fulfill all the requirements. However the world isn't perfect and we
 have to persist our entities in some storage to make sure we don't
 loose their state. Doctrine currently serves Relational Database
 Management Systems. In the future we are thinking to support NoSQL
